@@ -1,0 +1,17 @@
+server:
+  port: 8888
+
+spring:
+  datasource:
+    type: com.alibaba.druid.pool.DruidDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    druid:
+      study:
+        url: jdbc:mysql://148.70.30.245:3306/study
+        username: root
+        password: root
+
+      user:
+        url: jdbc:mysql://192.168.150.100:3306/user
+        username: root
+        password: root
